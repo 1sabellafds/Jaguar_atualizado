@@ -1,0 +1,64 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.corpo {
+  background-color: #c9e7f2;
+}
+
+#menu-horizontal {
+  list-style: none;
+  padding: 0%;
+  background-color: #356b8c;
+  text-align: center;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+}
+
+#menu-horizontal li {
+  display: inline;
+}
+
+#menu-horizontal li a {
+  display: inline;
+  color: rgb(241, 225, 225);
+  padding: 25px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.6s;
+}
+
+#menu-horizontal li a:hover {
+  /*Hover serve para quando passar o mousse em cima do menu*/
+  background-color: black;
+}
+
+.content {
+  text-align: center;
+  margin: 0px 70px;
+}
+
+.menu {
+  margin: 100px 70px;
+  text-align: center;
+}
+
+.modelos {
+  margin: 80px 70px;
+  text-align: center;
+}
+
+.salão {
+  margin: 80px 70px;
+  text-align: center;
+}
+
+.midias {
+  text-align: center;
+  background-color: #567895;
+}
